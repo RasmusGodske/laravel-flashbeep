@@ -1,0 +1,30 @@
+{
+    "name": "rasmusgodske/flashbeep",
+    "description": "Flash messages made easy.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RasmusGodske\\FlashBeep\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "RasmusGodske\\FlashBeep\\FlashBeepServiceProvider"
+        ]
+      }
+    },
+    "authors": [
+        {
+            "name": "RasmusGodske",
+            "email": "RasmusGodske@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {}
+}
